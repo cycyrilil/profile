@@ -1,0 +1,89 @@
+body{
+  background-color: #ECE3CE;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(168, 107, 107);
+  font-size: medium;
+  line-height: normal;
+}
+
+h1 {
+  font-size: x-large;
+  line-height: normal;
+  color: rgb(74, 50, 50);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-size: large;
+  line-height: normal;
+  color: rgb(74, 50, 50);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  color: rgb(94, 104, 65);
+  text-decoration: none;
+}
+
+a:hover{
+  transition:  2.5;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.list-inline li{
+  display: inline;
+  list-style-type: none;
+  padding: 0px 20px;
+  padding-left: 0px;
+  font-size: xx-large;
+
+}
+
+.card{
+    background-color: #ECE3CE;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: cente
+}
+
+#photo{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
